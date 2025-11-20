@@ -40,51 +40,51 @@ const Index = () => {
 
       <main className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h1 className="text-5xl font-bold text-foreground mb-6">
-            Cuidado de saúde ao seu alcance
+          <h1 className="text-5xl font-bold text-foreground mb-6 animate-fade-in">
+            Saúde conectada, simples assim! 🏥
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Conecte-se com profissionais de saúde de forma simples e segura. 
-            Agende consultas e converse em tempo real.
+            Encontre profissionais de saúde rapidinho e marque suas consultas sem complicação. 
+            Tudo online, tudo fácil!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" onClick={() => navigate("/auth")} className="shadow-hover">
-              Começar agora
+            <Button size="lg" onClick={() => navigate("/auth")} className="shadow-hover hover-scale">
+              Bora começar! 🚀
             </Button>
-            <Button size="lg" variant="outline" onClick={() => navigate("/auth")}>
-              Sou profissional
+            <Button size="lg" variant="outline" onClick={() => navigate("/auth")} className="hover-scale">
+              Sou da área da saúde
             </Button>
           </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div className="text-center p-6 rounded-xl bg-card shadow-soft">
+          <div className="text-center p-6 rounded-xl bg-card shadow-soft hover-scale transition-all">
             <div className="inline-flex p-4 bg-primary/10 rounded-2xl mb-4">
               <Calendar className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Agende facilmente</h3>
+            <h3 className="text-xl font-semibold mb-2">Agendamento rápido ⚡</h3>
             <p className="text-muted-foreground">
-              Escolha o profissional e horário que melhor se adequam à sua rotina
+              Marca uma consulta em minutos, no horário que der pra você!
             </p>
           </div>
 
-          <div className="text-center p-6 rounded-xl bg-card shadow-soft">
+          <div className="text-center p-6 rounded-xl bg-card shadow-soft hover-scale transition-all">
             <div className="inline-flex p-4 bg-secondary/10 rounded-2xl mb-4">
               <MessageSquare className="h-8 w-8 text-secondary" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Chat em tempo real</h3>
+            <h3 className="text-xl font-semibold mb-2">Conversa direto 💬</h3>
             <p className="text-muted-foreground">
-              Converse com profissionais de saúde de forma segura e privada
+              Bate-papo ao vivo com os profissionais, sem sair de casa
             </p>
           </div>
 
-          <div className="text-center p-6 rounded-xl bg-card shadow-soft">
+          <div className="text-center p-6 rounded-xl bg-card shadow-soft hover-scale transition-all">
             <div className="inline-flex p-4 bg-accent/10 rounded-2xl mb-4">
               <Shield className="h-8 w-8 text-accent" />
             </div>
-            <h3 className="text-xl font-semibold mb-2">Seguro e confiável</h3>
+            <h3 className="text-xl font-semibold mb-2">Seus dados seguros 🔒</h3>
             <p className="text-muted-foreground">
-              Seus dados estão protegidos com as melhores práticas de segurança
+              Pode ficar tranquilo, tudo protegido e só seu!
             </p>
           </div>
         </div>

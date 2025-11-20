@@ -8,40 +8,40 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 215 25% 15%;
+    --background: 210 40% 97%;
+    --foreground: 220 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 220 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 220 20% 20%;
 
-    --primary: 200 95% 45%;
+    --primary: 195 100% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 150 60% 50%;
+    --secondary: 280 60% 60%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 15% 95%;
-    --muted-foreground: 215 15% 50%;
+    --muted: 210 30% 92%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 200 100% 55%;
+    --accent: 340 85% 65%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 15% 88%;
-    --input: 215 15% 88%;
-    --ring: 200 95% 45%;
+    --border: 215 20% 85%;
+    --input: 215 20% 90%;
+    --ring: 195 100% 50%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
     
-    --gradient-medical: linear-gradient(135deg, hsl(200 95% 45%), hsl(150 60% 50%));
-    --gradient-soft: linear-gradient(180deg, hsl(210 20% 98%), hsl(200 30% 96%));
-    --shadow-soft: 0 4px 20px -2px hsl(215 25% 15% / 0.08);
-    --shadow-hover: 0 8px 30px -4px hsl(200 95% 45% / 0.15);
+    --gradient-medical: linear-gradient(135deg, hsl(195 100% 50%), hsl(280 60% 60%));
+    --gradient-soft: linear-gradient(180deg, hsl(210 40% 97%), hsl(195 50% 95%));
+    --shadow-soft: 0 4px 20px -2px hsl(220 20% 20% / 0.06);
+    --shadow-hover: 0 10px 35px -5px hsl(195 100% 50% / 0.2);
 
     --sidebar-background: 0 0% 98%;
 
@@ -61,38 +61,38 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 215 30% 8%;
-    --foreground: 210 15% 95%;
+    --background: 220 30% 10%;
+    --foreground: 210 20% 92%;
 
-    --card: 215 28% 12%;
-    --card-foreground: 210 15% 95%;
+    --card: 220 28% 14%;
+    --card-foreground: 210 20% 92%;
 
-    --popover: 215 28% 12%;
-    --popover-foreground: 210 15% 95%;
+    --popover: 220 28% 14%;
+    --popover-foreground: 210 20% 92%;
 
-    --primary: 200 95% 55%;
+    --primary: 195 100% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 150 50% 45%;
+    --secondary: 280 60% 65%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 215 20% 18%;
-    --muted-foreground: 215 10% 65%;
+    --muted: 220 20% 20%;
+    --muted-foreground: 215 15% 60%;
 
-    --accent: 200 95% 55%;
+    --accent: 340 85% 70%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 20% 18%;
-    --input: 215 20% 18%;
-    --ring: 200 95% 55%;
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 195 100% 55%;
     
-    --gradient-medical: linear-gradient(135deg, hsl(200 95% 55%), hsl(150 50% 45%));
-    --gradient-soft: linear-gradient(180deg, hsl(215 30% 8%), hsl(215 28% 12%));
-    --shadow-soft: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
-    --shadow-hover: 0 8px 30px -4px hsl(200 95% 55% / 0.25);
+    --gradient-medical: linear-gradient(135deg, hsl(195 100% 55%), hsl(280 60% 65%));
+    --gradient-soft: linear-gradient(180deg, hsl(220 30% 10%), hsl(220 28% 14%));
+    --shadow-soft: 0 4px 20px -2px hsl(0 0% 0% / 0.4);
+    --shadow-hover: 0 10px 35px -5px hsl(195 100% 55% / 0.3);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
